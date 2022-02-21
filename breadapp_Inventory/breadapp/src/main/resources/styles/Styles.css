@@ -1,0 +1,79 @@
+/* CSS for app */
+
+.button:hover{
+	-fx-background-color:  #D3D3D3;
+}
+
+.ResetButton:pressed{
+    -fx-background-color: #9E9FA0;
+    -fx-boder-color: #9E9FA0;
+    -fx-text-fill: #FFFFFF;
+    
+}
+.SaveButton:pressed{
+    -fx-background-color: #6FBF73;
+    -fx-boder-color: #6FBF73;
+    -fx-text-fill: #FFFFFF;
+}
+.btnWhite{
+	-fx-background-color:  #FFFFFF;
+        -fx-border-color: #C1C1C1;
+        -fx-background-radius: 5px 5px 5px 5px;
+        -fx-border-radius: 5px 5px 5px 5px;
+}
+
+.tableview{
+    -fx-border-color: #9E9FA0;
+}
+
+.table-row-cell:selected {
+   -fx-background-color: #5C5E63;
+   -fx-border-color: activeborder;
+}
+
+.table-row-cell:selected .text {
+       -fx-fill: #FFFFFF ;
+       -fx-weight: bold;
+       -fx-font-size: 13px;
+
+}
+.Pane{
+    -fx-backgournd-color: #E9E9E9;
+    -fx-border-color: #C1C1C1;
+}
+.TextField{
+    -fx-backgournd-color: #FFFFFF;
+    -fx-border-color: #3B3D43;
+    -fx-background-radius: 5px 5px 5px 5px;
+    -fx-border-radius: 5px 5px 5px 5px;
+}
+
+.tab{
+    -fx-background-insents: 0 0 0 0,0,0;
+}
+
+.tab-pane .tab-header-area .tab-header-background{
+    -fx-opacity: 0;
+    -fx-color: #36393F;
+}
+.tab-header-background .text{
+    -fx-color: #FFFFFF;
+}
+
+.tab-pane{
+    -fx-tab-min-width: 90px;
+}
+
+.tab-pane .tab{
+    -fx-background-color: white;
+}
+.tab-pane .tab-selected{   
+    -fx-background-color: white;
+    -fx-border-color: #5C5E63;
+    -fx-border-witdh: 0px 0px 3px 0px;
+}
+
+.Hbox{
+    -fx-border-color: #D3D3D3;
+    -fx-border-width: 5px 0px 0px 0px;
+}
